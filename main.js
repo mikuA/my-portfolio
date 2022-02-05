@@ -24,19 +24,19 @@ myphotos.onclick = function () {
 };
 
 animal.onclick = function () {
-  a.src = "/images/ポートフォリオ1.jpg";
-  b.src = "/images/ポートフォリオ2.jpg";
-  c.src = "/images/ポートフォリオ3.jpg";
+  a.src = "./images/ポートフォリオ1.jpg";
+  b.src = "./images/ポートフォリオ2.jpg";
+  c.src = "./images/ポートフォリオ3.jpg";
 };
 
 scenery.onclick = function () {
-  a.src = "/images/ポートフォリオ4.jpg";
-  b.src = "/images/ポートフォリオ5.jpg";
-  c.src = "/images/ポートフォリオ6.jpg";
+  a.src = "./images/ポートフォリオ4.jpg";
+  b.src = "./images/ポートフォリオ5.jpg";
+  c.src = "./images/ポートフォリオ6.jpg";
 };
 
 aquarium.onclick = function () {
-  a.src = "/images/ポートフォリオ7.jpg";
-  b.src = "/images/ポートフォリオ8.jpg";
-  c.src = "/images/ポートフォリオ9.jpg";
+  a.src = "./images/ポートフォリオ7.jpg";
+  b.src = "./images/ポートフォリオ8.jpg";
+  c.src = "./images/ポートフォリオ9.jpg";
 };
