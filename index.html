@@ -4,12 +4,82 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Noto+Serif+JP&family=Rampart+One&family=Train+One&family=Zen+Antique+Soft&family=Zen+Kaku+Gothic+New:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>My Portfolio</title>
   </head>
   <body>
-    <h1>ポートフォリオサイト</h1>
+    <header>
+      <div class="header">
+        <div class="sitetitle">My Portforio</div>
+        <div class="headerbox">
+          <span id="aboutme">About me</span>
+          <span id="myphotos">My Photos...</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="top">
+      <div class="toptitle">My Portforio</div>
+      <img src="images/title.jpg" height=800" width="100%" ) />
+    </div>
+
+    <div class="middle">
+      <div class="left" id="me">
+        <div class="square"></div>
+        <div class="border"></div>
+        <div class="image"></div>
+      </div>
+
+      <div class="aboutme">
+        <h1>About me</h1>
+        <div class="name">
+          <p class="miku">秋元　未来</p>
+          <p>WebExpertコース13期</p>
+        </div>
+        <div class="detail">
+          <p>出身：千葉県銚子市</p>
+          <p>誕生日：9月20日</p>
+          <p>大学：中央大学商学部</p>
+          <p>趣味：カメラ・音楽・水族館巡り</p>
+          <p>言語：Rails・HTML・CSS</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="photosbox">
+      <div class="title" id="photo"><h1>Photos...</h1></div>
+      <div class="javascript">
+        <div id="animal" class="ani">animal</div>
+        <div id="scenery" class="ani">scenery</div>
+        <div id="aquarium" class="ani">aquarium</div>
+      </div>
+      <div class="hyoji">
+        <div class="a" id="a">
+          <img src="/images/ポートフォリオ1.jpg" id="i" class="oo" />
+          <img src="/images/ポートフォリオ2.jpg" id="u" class="oo" />
+          <img src="/images/ポートフォリオ3.jpg" id="e" class="oo" />
+        </div>
+      </div>
+    </div>
+
+    <footer></footer>
     <script src="main.js"></script>
   </body>
 </html>

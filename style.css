@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lora", serif;
+  background-color: #fdfaf6;
+  color: #403531;
+}
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #d9c5c1;
+  height: 3rem;
+  padding: 2%;
+  width: 100%;
+  white-space: nowrap;
+  z-index: 50;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+  background-color: #403531;
+  z-index: 50;
+}
+.sitetitle {
+  font-size: 32px;
+  margin-left: 3%;
+  font-weight: 500;
+}
+.toptitle {
+  position: absolute;
+  top: 20rem;
+  left: 20rem;
+  font-size: 60px;
+  z-index: 3;
+  animation-name: action;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+@keyframes action {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.headerbox {
+  display: flex;
+  justify-content: right;
+  font-size: 24px;
+  float: right;
+}
+.headerbox span {
+  margin-left: 40px;
+}
+.square {
+  position: absolute;
+  top: 15%;
+  left: 2%;
+  width: 20%;
+  height: 80%;
+  background-color: #d9c5c1;
+  z-index: -3;
+}
+.border {
+  position: absolute;
+  top: 23%;
+  left: 10%;
+  border: 4px solid #636363;
+  width: 25%;
+  height: 65%;
+}
+.image {
+  position: absolute;
+  top: 30%;
+  left: 12%;
+  width: 20%;
+  height: 50%;
+  border-radius: 5%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(images/image.jpg);
+}
+.aboutme {
+  position: absolute;
+  left: 55%;
+  top: 20%;
+  text-align: center;
+}
+
+.name {
+  margin-top: 20px;
+}
+h1 {
+  font-size: 48px;
+}
+.miku {
+  font-size: 36px;
+}
+p {
+  font-size: 25px;
+  margin: 7px;
+}
+.detail {
+  margin-top: 50px;
+}
+
+.middle {
+  position: absolute;
+  width: 100%;
+  top: 110%;
+  height: 100vh;
+}
+.photosbox {
+  position: absolute;
+  top: 220%;
+  background-color: #bfada8;
+  width: 100%;
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.javascript {
+  font-size: 29px;
+  display: flex;
+  justify-content: space-around;
+}
+.ani {
+  background-image: linear-gradient(90deg, #636363, #636363);
+  font-size: 40px;
+  background-position: left bottom;
+  background-size: 0 2px;
+  transition: background-size 0.6s;
+}
+.ani:hover {
+  background-size: 100% 2px;
+}
+.a {
+  margin: 1rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.oo {
+  margin-top: 3%;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20%;
+}
+.top {
+  position: absolute;
+  width: 100%;
+  height: 2rem;
+}
